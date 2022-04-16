@@ -1,0 +1,137 @@
+body{
+    font-family: tahoma Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+
+}
+
+.logo{
+    margin: 500;
+    padding:10px ;
+    padding-left: 135px;
+}
+
+.header-top{
+    background-color: rgb(16, 30, 36);
+    height: 50px;
+    position: relative;
+}
+ nav ul{
+     position: absolute;
+     top: 0;
+     right: 0;
+ }
+
+ nav ul li{
+     display: inline-block;
+     
+     margin-right: 25px;
+     width: 110px;
+ }
+ nav a{
+     text-decoration: none;
+     color: rgba(148, 178, 190, 0.5);
+     text-transform: uppercase;
+     font-size: 13px;
+     letter-spacing: 4px;
+     transition: color .3s linear;
+ }
+ nav a:hover{
+     color: rgb(202, 199, 199);
+ }
+
+ .portfolio{
+     padding: 50px 100px;
+     text-align: center;
+ }
+ .portfolio h1{
+     color: rgba(19, 18, 18, 0.959);
+     font-size:36px ;
+ }
+ .portfolio p{
+     line-height: 2;
+     color: rgb(88, 88, 88);
+     font-size: 16px;
+ }
+
+ .galery{
+     margin: 0px 100px 50px 100px;
+     overflow: auto;
+ }
+
+ .card{
+     width: 32%;
+     float: left;
+     text-align: center;
+ }
+
+ .name{
+     color: rgb(102, 102, 100);
+     text-transform: uppercase;
+     font-size: 18px;
+     letter-spacing: 3px;
+     font-weight: bold;
+ }
+
+ .text{
+     text-align: center;
+     color: rgb(133, 125, 125);
+ }
+
+ .about{
+     background-color: #003d52;
+     background-image: url(imagens/bg_detalhe.png);
+     padding: 100px;
+     background-repeat: no-repeat;
+     background-position:right bottom;
+     color: white;
+     text-align: left;
+ }
+
+ .about h2{
+     font-size: 54px;
+     color: aliceblue;
+     font-weight: normal;
+     text-transform: uppercase;
+     margin-top: 10px;
+ }
+
+.about p{
+    width: 70%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.contact{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 50px;
+    color: rgb(3, 55, 83);
+    font-weight: bold;
+}
+
+.map{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(2, 5, 5);
+    color: rgb(84, 131, 131);
+    height: 70px;
+    text-align: center;
+}
+footer p{
+    padding-top: 25px;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
